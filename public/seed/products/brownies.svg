@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Brownies">
+  <rect width="800" height="800" fill="#f1eae2"/>
+  <ellipse cx="400" cy="610" rx="220" ry="70" fill="#d0b99a" opacity="0.3"/>
+  <rect x="170" y="180" width="460" height="330" rx="32" fill="#7c3d22"/>
+  <rect x="200" y="220" width="400" height="250" rx="25" fill="#9a532b" opacity="0.9"/>
+  <path d="M250 210L210 315L270 350L320 260L250 210Z" fill="#5d2f1d" opacity="0.7"/>
+  <path d="M370 210L330 345L405 370L465 255L370 210Z" fill="#5d2f1d" opacity="0.7"/>
+  <path d="M500 220L455 355L560 376L590 250L500 220Z" fill="#5d2f1d" opacity="0.7"/>
+  <g fill="#ecd9b8">
+    <circle cx="275" cy="285" r="24"/>
+    <circle cx="355" cy="300" r="28"/>
+    <circle cx="440" cy="290" r="30"/>
+    <circle cx="510" cy="325" r="24"/>
+    <circle cx="330" cy="385" r="26"/>
+    <circle cx="455" cy="400" r="22"/>
+  </g>
+  <path d="M230 500H570" stroke="#f5efe9" stroke-width="26" stroke-linecap="round"/>
+</svg>

@@ -225,7 +225,7 @@
 
   --color-secondary: var(--color-brand-secondary-700);
   --color-secondary-hover: var(--color-brand-secondary-hover);
-  --color-secondary-foreground: #FFFFFF;
+  --color-secondary-foreground: var(--color-neutral-900);
 
   --color-muted: var(--color-neutral-100);
   --color-muted-foreground: var(--color-neutral-600);
@@ -234,16 +234,16 @@
   --color-accent-foreground: var(--color-neutral-900);
 
   --color-destructive: var(--color-error-600);
-  --color-destructive-foreground: #FFFFFF;
+  --color-destructive-foreground: var(--color-neutral-900);
 
   --color-success: var(--color-success-500);
-  --color-success-foreground: #FFFFFF;
+  --color-success-foreground: var(--color-neutral-900);
 
   --color-warning: var(--color-warning-500);
   --color-warning-foreground: var(--color-warning-900);
 
   --color-info: var(--color-info-500);
-  --color-info-foreground: #FFFFFF;
+  --color-info-foreground: var(--color-neutral-900);
 
   --color-border: var(--color-neutral-200);
   --color-ring: var(--color-brand-500);
@@ -263,8 +263,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #011128;
-    --foreground: #ECF3FE;
+    --background: #fffaf5;
+    --foreground: #1A1A2E;
   }
 }
 

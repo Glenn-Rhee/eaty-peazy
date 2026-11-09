@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Kue Lapis Legit detail">
+  <rect width="800" height="800" fill="#f7efe6"/>
+  <rect x="120" y="150" width="560" height="500" rx="22" fill="#fffaf2"/>
+  <path d="M160 530C200 420 250 350 300 330C355 310 430 330 470 360C510 390 560 460 640 530V590H160V530Z" fill="#f0d39d"/>
+  <path d="M172 505C215 465 260 440 310 420C352 404 400 405 439 420C490 440 540 470 628 540" stroke="#c76c3d" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M200 290C250 260 311 250 362 270C405 286 435 320 463 350C500 387 540 418 620 468" stroke="#d89c4b" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <circle cx="260" cy="280" r="10" fill="#d6884e"/>
+  <circle cx="330" cy="260" r="10" fill="#d6884e"/>
+  <circle cx="472" cy="350" r="10" fill="#d6884e"/>
+  <circle cx="560" cy="430" r="10" fill="#d6884e"/>
+</svg>

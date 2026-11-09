@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Nastar Premium">
+  <rect width="800" height="800" fill="#f7eee5"/>
+  <ellipse cx="400" cy="610" rx="220" ry="70" fill="#d9c0af" opacity="0.35"/>
+  <g transform="translate(80 120)">
+    <g fill="#d1a26a">
+      <circle cx="150" cy="260" r="72"/>
+      <circle cx="280" cy="210" r="78"/>
+      <circle cx="420" cy="255" r="72"/>
+      <circle cx="530" cy="330" r="76"/>
+      <circle cx="310" cy="380" r="74"/>
+      <circle cx="470" cy="430" r="72"/>
+    </g>
+    <g fill="#e9d1a8">
+      <circle cx="170" cy="280" r="55"/>
+      <circle cx="290" cy="220" r="60"/>
+      <circle cx="430" cy="270" r="58"/>
+      <circle cx="540" cy="350" r="60"/>
+      <circle cx="320" cy="410" r="58"/>
+      <circle cx="490" cy="450" r="56"/>
+    </g>
+    <g fill="#8d5a33">
+      <circle cx="260" cy="310" r="14"/>
+      <circle cx="406" cy="355" r="13"/>
+      <circle cx="520" cy="290" r="13"/>
+      <circle cx="390" cy="440" r="13"/>
+      <circle cx="530" cy="470" r="13"/>
+    </g>
+  </g>
+</svg>

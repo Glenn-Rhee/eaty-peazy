@@ -68,8 +68,8 @@ const productSeeds: ProductSeed[] = [
     description:
       "Lapis legit dengan tekstur lembut dan aroma rempah yang khas. Cocok untuk hampers dan acara keluarga.",
     images: [
-      "/seed/products/lapis-legit-1.jpg",
-      "/seed/products/lapis-legit-2.jpg",
+      "/seed/products/lapis-legit.svg",
+      "/seed/products/lapis-legit-2.svg",
     ],
   },
   {
@@ -79,7 +79,7 @@ const productSeeds: ProductSeed[] = [
     stock: 8,
     description:
       "Brownies panggang dengan cokelat pekat dan bagian atas yang renyah.",
-    images: ["/seed/products/brownies-1.jpg"],
+    images: ["/seed/products/brownies.svg"],
   },
   {
     key: "bolu-pandan",
@@ -87,7 +87,7 @@ const productSeeds: ProductSeed[] = [
     price: 35000,
     stock: 40,
     description: "Bolu pandan lembut dengan aroma alami, dibuat setiap hari.",
-    images: ["/seed/products/bolu-pandan-1.jpg"],
+    images: ["/seed/products/bolu-pandan.svg"],
   },
   {
     key: "nastar",
@@ -95,7 +95,7 @@ const productSeeds: ProductSeed[] = [
     price: 120000,
     stock: 15,
     description: "Nastar isi selai nanas homemade dengan mentega pilihan.",
-    images: ["/seed/products/nastar-1.jpg", "/seed/products/nastar-2.jpg"],
+    images: ["/seed/products/nastar-premium.svg", "/seed/products/nastar-premium-2.svg"],
   },
   {
     key: "cheese-roll",
@@ -104,7 +104,7 @@ const productSeeds: ProductSeed[] = [
     stock: 0, // contoh stok habis
     description:
       "Roll keju gurih dengan lapisan renyah di luar dan lembut di dalam.",
-    images: ["/seed/products/cheese-roll-1.jpg"],
+    images: ["/seed/products/cheese-roll.svg"],
   },
   {
     key: "donat-kentang",
@@ -112,7 +112,7 @@ const productSeeds: ProductSeed[] = [
     price: 45000,
     stock: 30,
     description: "Donat kentang empuk dengan berbagai pilihan topping.",
-    images: ["/seed/products/donat-kentang-1.jpg"],
+    images: ["/seed/products/donat-kentang.svg"],
   },
   {
     key: "roti-gandum",

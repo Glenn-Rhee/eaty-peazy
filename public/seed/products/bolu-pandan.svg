@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Bolu Pandan">
+  <rect width="800" height="800" fill="#edf8f0"/>
+  <ellipse cx="400" cy="620" rx="230" ry="70" fill="#b9d8b9" opacity="0.35"/>
+  <rect x="150" y="190" width="500" height="340" rx="32" fill="#f6f1d8"/>
+  <path d="M175 440C260 390 325 365 400 365C472 365 535 390 625 440V500H175V440Z" fill="#dfe7b4"/>
+  <path d="M210 260C245 210 301 180 391 184C478 188 529 222 570 270" stroke="#82b76a" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <circle cx="282" cy="325" r="18" fill="#9cc56a"/>
+  <circle cx="395" cy="295" r="18" fill="#9cc56a"/>
+  <circle cx="515" cy="340" r="18" fill="#9cc56a"/>
+  <path d="M270 500L325 420L375 500" stroke="#d6b97f" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M431 500L470 420L535 500" stroke="#d6b97f" stroke-width="16" fill="none" stroke-linecap="round"/>
+</svg>

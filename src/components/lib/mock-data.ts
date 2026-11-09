@@ -10,6 +10,12 @@ export interface Product {
 
 export type OrderStatus = "pending" | "process" | "completed" | "canceled";
 
+export interface OrderItem {
+  name: string;
+  quantity: number;
+  price: number;
+}
+
 export interface Order {
   id: string;
   customerName: string;
@@ -18,6 +24,8 @@ export interface Order {
   deliveryMethod: "delivery" | "pickup";
   status: OrderStatus;
   totalAmount: number;
+  address?: string;
+  items: OrderItem[];
 }
 
 export const products: Product[] = [
@@ -30,11 +38,67 @@ export const products: Product[] = [
 ];
 
 export const orders: Order[] = [
-  { id: "ORD-001", customerName: "Budi Santoso", phoneNumber: "081234567890", requestedDate: "2026-10-22", deliveryMethod: "delivery", status: "pending", totalAmount: 170000 },
-  { id: "ORD-002", customerName: "Siti Aminah", phoneNumber: "082198765432", requestedDate: "2026-10-23", deliveryMethod: "pickup", status: "process", totalAmount: 120000 },
-  { id: "ORD-003", customerName: "Andi Wijaya", phoneNumber: "085212345678", requestedDate: "2026-10-18", deliveryMethod: "delivery", status: "completed", totalAmount: 255000 },
-  { id: "ORD-004", customerName: "Dewi Lestari", phoneNumber: "081377788899", requestedDate: "2026-10-15", deliveryMethod: "pickup", status: "completed", totalAmount: 90000 },
-  { id: "ORD-005", customerName: "Rudi Hartono", phoneNumber: "087855566677", requestedDate: "2026-10-12", deliveryMethod: "delivery", status: "canceled", totalAmount: 65000 },
+  {
+    id: "ORD-001",
+    customerName: "Budi Santoso",
+    phoneNumber: "081234567890",
+    requestedDate: "2026-10-22",
+    deliveryMethod: "delivery",
+    status: "pending",
+    totalAmount: 170000,
+    address: "Jl. Melati No. 12, Bandung",
+    items: [
+      { name: "Kue Lapis Legit", quantity: 1, price: 85000 },
+      { name: "Brownies Panggang", quantity: 1, price: 55000 },
+      { name: "Bolu Pandan", quantity: 1, price: 30000 },
+    ],
+  },
+  {
+    id: "ORD-002",
+    customerName: "Siti Aminah",
+    phoneNumber: "082198765432",
+    requestedDate: "2026-10-23",
+    deliveryMethod: "pickup",
+    status: "process",
+    totalAmount: 120000,
+    items: [{ name: "Nastar Premium", quantity: 1, price: 120000 }],
+  },
+  {
+    id: "ORD-003",
+    customerName: "Andi Wijaya",
+    phoneNumber: "085212345678",
+    requestedDate: "2026-10-18",
+    deliveryMethod: "delivery",
+    status: "completed",
+    totalAmount: 255000,
+    address: "Jl. Kenanga No. 4, Bandung",
+    items: [
+      { name: "Kue Lapis Legit", quantity: 2, price: 85000 },
+      { name: "Donat Kentang", quantity: 1, price: 45000 },
+      { name: "Brownies Panggang", quantity: 1, price: 40000 },
+    ],
+  },
+  {
+    id: "ORD-004",
+    customerName: "Dewi Lestari",
+    phoneNumber: "081377788899",
+    requestedDate: "2026-10-15",
+    deliveryMethod: "pickup",
+    status: "completed",
+    totalAmount: 90000,
+    items: [{ name: "Donat Kentang", quantity: 2, price: 45000 }],
+  },
+  {
+    id: "ORD-005",
+    customerName: "Rudi Hartono",
+    phoneNumber: "087855566677",
+    requestedDate: "2026-10-12",
+    deliveryMethod: "delivery",
+    status: "canceled",
+    totalAmount: 65000,
+    address: "Jl. Anggrek No. 8, Bandung",
+    items: [{ name: "Cheese Roll", quantity: 1, price: 65000 }],
+  },
 ];
 
 export const orderStatusLabel: Record<OrderStatus, string> = {

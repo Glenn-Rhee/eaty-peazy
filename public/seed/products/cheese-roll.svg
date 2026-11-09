@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Cheese Roll">
+  <rect width="800" height="800" fill="#f6f0ea"/>
+  <ellipse cx="400" cy="620" rx="220" ry="70" fill="#d4b99f" opacity="0.35"/>
+  <g transform="translate(110 140)">
+    <path d="M90 310C90 210 170 130 270 130H430C530 130 610 210 610 310V370C610 470 530 550 430 550H270C170 550 90 470 90 370V310Z" fill="#f5e8c9"/>
+    <path d="M170 250C220 200 285 180 360 190C445 202 500 245 560 300" stroke="#d7a33d" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <path d="M155 360C330 330 430 338 560 410" stroke="#d7a33d" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <g fill="#f0d87d">
+      <circle cx="240" cy="285" r="17"/>
+      <circle cx="320" cy="272" r="18"/>
+      <circle cx="390" cy="300" r="18"/>
+      <circle cx="500" cy="330" r="18"/>
+    </g>
+    <path d="M120 450C180 475 230 490 305 490C392 490 495 468 560 430" stroke="#d6a85a" stroke-width="12" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

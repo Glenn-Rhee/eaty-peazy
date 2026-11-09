@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Kue Lapis Legit">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f4d7a7"/>
+      <stop offset="100%" stop-color="#ebbf7a"/>
+    </linearGradient>
+    <linearGradient id="cake" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fff7e9"/>
+      <stop offset="100%" stop-color="#f6e0b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <ellipse cx="400" cy="620" rx="220" ry="70" fill="#d1aa5d" opacity="0.35"/>
+  <g transform="translate(110 120)">
+    <path d="M40 360C40 270 120 190 210 190H390C480 190 560 270 560 360V420H40V360Z" fill="url(#cake)"/>
+    <path d="M100 420H500L550 520C470 560 302 568 140 520L100 420Z" fill="#f9f1dd"/>
+    <path d="M112 250C82 250 60 265 60 290C60 320 90 332 120 332H480C520 332 545 318 545 286C545 258 518 240 480 240L112 250Z" fill="#f8e7be"/>
+    <path d="M120 230C140 190 175 165 215 150L220 185C190 208 169 230 160 264L120 230Z" fill="#d8b66c" opacity="0.9"/>
+    <path d="M435 150C485 170 515 190 530 228L490 260C475 230 453 208 420 186L435 150Z" fill="#d8b66c" opacity="0.9"/>
+    <path d="M180 330C240 300 270 295 320 303C363 310 415 325 448 345" stroke="#d68d2e" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <path d="M200 338C240 360 279 365 327 360C370 355 410 337 448 309" stroke="#e6a53d" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M185 275L230 325" stroke="#d96c32" stroke-width="14" stroke-linecap="round"/>
+    <path d="M258 260L310 329" stroke="#d96c32" stroke-width="14" stroke-linecap="round"/>
+    <path d="M332 258L380 332" stroke="#d96c32" stroke-width="14" stroke-linecap="round"/>
+    <path d="M390 265L460 325" stroke="#d96c32" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>
